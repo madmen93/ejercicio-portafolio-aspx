@@ -1,0 +1,19 @@
+﻿body {
+}
+div.logos{
+    display:flex;
+    justify-content:center;
+}
+img.logoLenguaje{
+    width: 40px;
+    margin: 30px;
+}
+h3{
+    margin-bottom: 0px;
+}
+h4{
+    margin-top:2px;
+}
+section.about{
+    margin-bottom: 50px;
+}

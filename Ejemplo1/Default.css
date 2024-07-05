@@ -1,0 +1,48 @@
+﻿body {
+}
+div.presentacion{
+    display: flex;
+}
+div.texto{
+    flex-direction:column;
+}
+img.foto-personal{
+    width: 250px;
+}
+h1 {
+    margin-bottom: 0px;
+    color: #d3586e;
+}
+h2{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    margin: 8px 0px;
+}
+section.call-to-action {
+    display:flex;
+    background-color: #60BFAE;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content:space-between;
+}
+div.call-to-action {
+    color: #ebebeb;
+}
+h2.call-to-action{
+    margin-top: 0px;
+}
+#ContentPlaceHolder1_btnContact {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d3586e;
+    color: #ebebeb;
+    font-size: 18px;
+    padding: 10px;
+    align-self: center;
+    margin-right: 15px;
+}

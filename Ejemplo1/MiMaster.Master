@@ -1,0 +1,41 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MiMaster.master.cs" Inherits="Ejemplo1.MiMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Master.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <div class="header">
+                    <img src="Images\logo.png" class="logo" alt="logo ejemplo" />
+                    <div class="links">
+                        <a class="link header" runat="server" href="~\Default.aspx">Inicio</a>
+                        <a class="link header" runat="server" href="~\SobreMi.aspx">Sobre mí</a>
+                        <a class="link header" runat="server" href="#">Proyectos</a>
+                        <a class="link header" runat="server" href="~\Contacto.aspx">Contacto</a>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <footer>
+                <div class="footer">
+                    <a class="link footer" href="#">Información legal</a>
+                    <a class="link footer" href="#">Newsletter</a>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
