@@ -1,6 +1,11 @@
-﻿body {
-    background-color:antiquewhite;
+﻿
+*{
     box-sizing:border-box;
+}
+    
+
+body {
+    background-color:antiquewhite;
     margin: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*line-height: 1.5;*/
@@ -28,7 +33,7 @@ div.footer{
     color: #328C83;
     margin: auto;
     width: 800px;
-    min-height: 500px;
+    min-height: calc(100vh - 210px);
 }
 footer{
     height: 100px;

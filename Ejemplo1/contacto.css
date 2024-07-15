@@ -1,0 +1,45 @@
+﻿*{
+    box-sizing:border-box;
+}
+body {
+
+}
+
+.formContacto{
+    display:flex;
+    flex-direction:column;
+    gap: 8px;
+}
+
+
+#ContentPlaceHolder1_tbxNombre,
+#ContentPlaceHolder1_tbxEmail,
+#ContentPlaceHolder1_tbxAsunto,
+#ContentPlaceHolder1_tbxMensaje {
+    font-size: 1rem;
+}
+
+
+#ContentPlaceHolder1_tbxMensaje {
+    height: 80px;
+}
+
+#ContentPlaceHolder1_lbnombre,
+#ContentPlaceHolder1_lbEmail,
+#ContentPlaceHolder1_lbAsunto,
+#ContentPlaceHolder1_lbMensaje{
+    font-size: 1.2rem;
+}
+
+#ContentPlaceHolder1_btnEnviar {
+    align-self: end;
+    border-radius: 10px;
+    border: none;
+    background-color: #d3586e;
+    color: #ebebeb;
+    font-size: 18px;
+    padding: 10px;
+}
+#ContentPlaceHolder1_tbxMensaje {
+    resize: none;
+}

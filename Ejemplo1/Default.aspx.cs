@@ -13,5 +13,10 @@ namespace Ejemplo1
         {
 
         }
+
+        protected void btnContact_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Contacto.aspx", false);
+        }
     }
 }

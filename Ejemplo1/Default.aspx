@@ -20,7 +20,7 @@
                 <h2 class="call-to-action">¿Tienes un proyecto en mente?</h2>
                 <p class="call-to-action">Contáctame y charlemos un rato </p>
             </div>
-            <asp:Button ID="btnContact" runat="server" Text="¡Contáctame!" />
+            <asp:Button ID="btnContact" runat="server" OnClick="btnContact_Click" Text="¡Contáctame!" />
         </section>
     </section>
 </asp:Content>
