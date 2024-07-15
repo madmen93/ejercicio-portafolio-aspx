@@ -73,6 +73,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Default.css" />
     <Content Include="Global.asax" />
+    <Content Include="Legal.aspx" />
     <Content Include="Master.css" />
     <Content Include="ProyectoDos.aspx" />
     <Content Include="Proyectos.aspx" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Legal.aspx.cs">
+      <DependentUpon>Legal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legal.aspx.designer.cs">
+      <DependentUpon>Legal.aspx</DependentUpon>
     </Compile>
     <Compile Include="MiMaster.Master.cs">
       <DependentUpon>MiMaster.Master</DependentUpon>

@@ -31,7 +31,7 @@
             </div>
             <footer>
                 <div class="footer">
-                    <a class="link footer" href="#">Información legal</a>
+                    <a class="link footer" href="Legal.aspx">Información legal</a>
                     <a class="link footer" href="#">Newsletter</a>
                 </div>
             </footer>
