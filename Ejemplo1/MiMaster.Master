@@ -20,7 +20,7 @@
                     <div class="links">
                         <a class="link header" runat="server" href="~\Default.aspx">Inicio</a>
                         <a class="link header" runat="server" href="~\SobreMi.aspx">Sobre mí</a>
-                        <a class="link header" runat="server" href="#">Proyectos</a>
+                        <a class="link header" runat="server" href="~\Proyectos.aspx">Proyectos</a>
                         <a class="link header" runat="server" href="~\Contacto.aspx">Contacto</a>
                     </div>
                 </div>

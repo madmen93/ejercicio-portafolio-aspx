@@ -1,0 +1,31 @@
+﻿body {
+}
+section.proyecto{
+    text-align: center;
+    margin-bottom: 40px;
+}
+p, h1, h2, ul, li{
+    text-align: start;
+}
+div.proyectos{
+    display: flex;
+    justify-content: space-between;
+}
+
+img.proyecto{
+    width: 250px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+img.proyectoDetalle{
+    width: 400px;
+    height: 300px;
+}
+a {
+    text-decoration: none;
+    color: #d3586e;
+    font-weight: bold;
+}
+.regresar{
+    font-size: 1.5rem;
+}
